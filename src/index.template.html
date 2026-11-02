@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#324d40">
+  <meta name="description" content="低空经济 L3 手机学习工具。双题库、逐题解析、错题复习、学习记录与资料定位。">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>低空研习 · L3 刷题</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <style>/*__STYLE__*/</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <div id="storage-warning" class="storage-warning" hidden>本浏览器无法保存进度。请在离开前到「我的」导出学习备份。</div>
+  <div id="app"></div>
+  <dialog id="sheet" aria-label="操作面板"><div id="sheet-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <input type="file" id="backup-file" accept=".json,application/json" hidden>
+  <input type="file" id="bank-file" accept=".json,application/json" hidden>
+  <script>window.STUDY_DATA=/*__DATA__*/;</script>
+  <script>/*__APP__*/</script>
+</body>
+</html>

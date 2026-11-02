@@ -1,0 +1,6 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+progress.json
+*学习备份*.json
